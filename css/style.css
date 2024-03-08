@@ -1,0 +1,21 @@
+header>h1{
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+}
+
+.container-item {
+    border: 1px solid;
+    width: 100%;
+    padding: 20px;
+}
+.container-item>h2 {
+    text-align: left;
+}
+
+.container-result {
+    text-align: center;
+background-color: aliceblue;
+}
