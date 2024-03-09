@@ -1,10 +1,9 @@
 html{
     font-family: sans-serif;
-    line-height: 1.15;
 }
 
 body{
-    background-color: #f5f4f1;
+    background-color: #F1FADA;
 }
 
 header>h1{
@@ -15,18 +14,23 @@ header>h1{
     display: flex;
 }
 
-.container-item {
+.container-item-form {
     border: 1px solid;
     width: 100%;
     padding: 10px;
+    padding-right: 35px;
+    padding-left: 15px;
 }
-.container-item>h2 {
-    text-align: left;
+.container-item-display {
+    border: 1px solid;
+    width: 100%;
+    padding: 10px;
+    padding-left: 35px;
 }
 
 .container-result,.container-form {
     text-align: center;
-    background-color: #b8ac95;
+    background-color: #9AD0C2;
     padding-top: 1px;
     padding-bottom: 10px;
     border-radius: 7px;
@@ -51,7 +55,19 @@ button {
 }
 
 #calculate-button {
-    background-color: #8a7a5d;
+    background-color: #2D9596;
+    color: white;
+}
+#download-result-button{
+    background-color: #2D9596;
+    color: white;
+}
+#aplikasi-button {
+    background-color: #2D9596;
+    color: white;
+}
+#register-button{
+    background-color: #2D9596;
     color: white;
 }
 
@@ -61,3 +77,4 @@ button {
     border-radius: 4px;
     background-color: whitesmoke;
 }
+
