@@ -1,84 +1,87 @@
-html{
-    font-family: sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body{
-    background-color: #F1FADA;
+* {
+    font-family: "Roboto", sans-serif;
 }
-
-header>h1{
-    text-align: center;
-}
-
-.main-container {
+body {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 35%, rgba(38,80,115,1) 100%);
 }
 
-.container-item-form {
-    /* border: 1px solid; */
-    width: 100%;
-    padding: 10px;
-    padding-right: 35px;
-    padding-left: 15px;
-}
-.container-item-display {
-    /* border: 1px solid; */
-    width: 100%;
-    padding: 10px;
-    padding-left: 35px;
+.container {
+    border: 5px solid;
+    width: 700px;
+    margin-top: 8rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
 }
 
-.container-result,.container-form {
+h1 {
     text-align: center;
-    background-color: #9AD0C2;
-    padding-top: 1px;
-    padding-bottom: 10px;
-    border-radius: 7px;
+    margin-bottom: 20px;
 }
 
-.container-form {
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 10px;
+p {
+    line-height: 1.5;
+    margin-bottom: 15px;
 }
 
-.container-form>div {
-    padding: 8px;
+.form-group {
+    margin-bottom: 15px;
+    margin-top: 15px
 }
 
-button {
-    height: 32px;
-    padding-right: 24px;
-    padding-left: 24px;
-    border: 0px;
+div>label {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="radio"],
+input[type="number"] {
+    padding: 5px;
+    cursor: pointer;
+    margin-right: 10px;
     border-radius: 8px;
 }
 
-#calculate-button {
-    background-color: #2D9596;
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: lightseagreen;
     color: white;
-}
-#download-result-button{
-    background-color: #2D9596;
-    color: white;
-}
-.aplikasi-button {
-    background-color: #2D9596;
-    color: white;
-}
-.register-button{
-    background-color: #2D9596;
-    color: white;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-.form-item {
-    height: 22px;
-    border: 0px;
-    border-radius: 4px;
-    background-color: whitesmoke;
+.bmi-form-gender {
+    display: inline;
+    margin-right: 5px;
 }
 
-img {
-    width: 50%;
-    height: 50%;
+/* result BMI */
+#kekurangan {
+    color: blue;
+    font-weight: bold;
+}
+
+#normal {
+    color: green;
+    font-weight: bold;
+}
+
+#kelebihan {
+    color: orange;
+    font-weight: bold;
+}
+
+#obesitas {
+    color: red;
+    font-weight: bold;
 }
